@@ -40,7 +40,7 @@ services:
   client:
     build: 
       context: ./client
-      dockerfile: ./Dockerfile
+      dockerfile: ./todo/Dockerfile
     container_name: client
     networks:
       - net
